@@ -1,0 +1,91 @@
+.* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    width: 80%;
+}
+
+    .table-container table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    min-width: 150px;
+}
+
+table thead {
+    background-color: #bbb;
+    align-items: center;
+    border-top-left-radius: 30px;
+}
+
+table th {
+    color: #121212;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #bbb
+}
+
+.search-container {
+    padding: 30px;
+}
+
+.searchInput {
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.searchButton {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: medium solid 2px;
+    width: 40%;
+    height: 32px;
+    background-color: rgba(222,222,222,255);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-image: linear-gradient(#e2e2e2, #e2e2e2 ,#797979);
+}
+
+.searchButton:hover {
+    cursor: pointer;
+}
+
+.test {
+    border: 1px solid;
+    padding-top: 2px;
+    padding-bottom: 1.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: -5px 1px 0px #c7c7c7, 0.25em 0.1em 0px #c7c7c7, 0.06em -0.70px 0px #c7c7c7, -3px -1px 0px #c7c7c7;
+}
+
+th:hover {
+    background: #4e4e4e;
+    cursor: pointer;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
